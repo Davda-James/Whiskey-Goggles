@@ -1,0 +1,16 @@
+# full this 
+.DS_Store
+.idea
+.vscode
+.history
+.env
+.env.local
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+db_output
+embeddings
+id_mappings.pkl
