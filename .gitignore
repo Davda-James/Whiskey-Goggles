@@ -11,6 +11,3 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
-db_output
-embeddings
-id_mappings.pkl
