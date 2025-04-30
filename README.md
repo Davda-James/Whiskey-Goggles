@@ -30,6 +30,9 @@
 
 ### Demo Video
 
+[![Watch the video](https://img.youtube.com/vi/fy34lF9Ts1M/default.jpg)](https://www.youtube.com/watch?v=fy34lF9Ts1M&t=1s)
+
+
 ### Demo1
 This image is downloaded from internet and is not same as given in images.
 <img src="./public/images/demo1.jpg">
