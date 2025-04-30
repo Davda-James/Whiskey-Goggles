@@ -111,7 +111,14 @@ custom_css = """
 
 def load_gradio():
     with gr.Blocks(css=custom_css) as demo:
-        gr.Markdown("# 🍾 Whiskey Bottle")
+        gr.HTML(
+        """
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="https://res.cloudinary.com/dgvnuwspr/image/upload/v1740441389/wdqjosbtpgjiyi1ovups.png" style="height:60px; margin-right: 10px;">
+            <h2 style="margin: 0; color: white;">Whiskey Bottle</h2>
+        </div>
+        """
+    )   
 
         with gr.Row():
             with gr.Column():

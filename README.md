@@ -32,7 +32,7 @@
 
 ### Demo1
 This image is downloaded from internet and is not same as given in images.
-<img src="./public/images/demo1.py.jpg">
+<img src="./public/images/demo1.jpg">
 
 ### Backend Response (tried using postman)
 ```json
@@ -63,19 +63,19 @@ This image is downloaded from internet and is not same as given in images.
 ```
 #### Response on frontend
 
-<img src="./public/images/frontend_demo1.png">
+<img src="./public/images/demo1_frontend.jpg">
 
 
 #### Ground Truths
 This is the original image that is there in baxus dataset.
-<img src="./public/images/demo1_ground_truth">
+<img src="./public/images/demo1_ground_truth.jpg">
 
 
 
 # Demo2
 
 This image is downloaded from internet and is not same as given in images.
-<img src="./public/images/demo1.py.jpg">
+<img src="./public/images/demo2.jpg">
 
 ### Backend Response (tried using postman)
 ```json
@@ -107,11 +107,25 @@ This image is downloaded from internet and is not same as given in images.
 
 ### Frontend Response 
 
-<img src="./public/images/demo2.png">
+<img src="./public/images/demo2_frontend.jpg">
 
 ### Ground Truth 
 <img src="./public/images/demo2_ground_truth.jpg">
 
+
+# Demo3
+
+This image is downloaded from internet and is not same as given in images.
+<img src="./public/images/demo4_multiple_bottles.png">
+
+
+### Frontend Response 
+As we have no of results 2 in this both response is shown
+**Matches the first left bottle**
+<img src="./public/images/demo4_response1.jpg">
+
+**Matches the second right bottle** 
+<img src="./public/images/demo4_response2.jpg">
 
 ### Data Preparation
 - As baxus image has 501 images, so I have stored it and baxus_data.csv in data but if it scales and becomes more, then make **data** folder in root directory and download the google sheets as csv and store it in **data** folder.
@@ -142,7 +156,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-#### Setting up backend
+#### Setting up backend 
 ```python
 python src/backend.py
 ```
